@@ -1,0 +1,26 @@
+{
+  "name": "myskills",
+  "displayName": "Myskills",
+  "version": "1.0.0",
+  "description": "反捷径推理 Skill 集：问题诊断、方案设计、方案验证、代码考古、流程复盘",
+  "suggestedPrompts": [
+    "帮我分析这个问题，先别急着改代码",
+    "帮我评估这个方案的风险",
+    "这个代码库为什么这么设计"
+  ],
+  "category": "Developer Tools",
+  "keywords": [
+    "skills",
+    "reasoning",
+    "root-cause-analysis",
+    "code-review",
+    "retrospective",
+    "workflow"
+  ],
+  "author": {
+    "name": "K-arch-droid"
+  },
+  "homepage": "https://github.com/K-arch-droid/Myskills",
+  "repository": "https://github.com/K-arch-droid/Myskills",
+  "license": "MIT"
+}

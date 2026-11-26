@@ -1,0 +1,7 @@
+name: myskills
+version: 1.0.0
+description: 反捷径推理 Skill 集与工作流 bootstrap，for Hermes Agent
+author: K-arch-droid
+provides_hooks:
+  - pre_llm_call
+skills_dir: skills

@@ -1,0 +1,59 @@
+{
+  "name": "myskills",
+  "version": "1.0.0",
+  "description": "反捷径推理 Skill 集与安装器，for coding agents",
+  "type": "module",
+  "main": ".opencode/plugins/myskills.js",
+  "license": "MIT",
+  "author": {
+    "name": "K-arch-droid",
+    "url": "https://github.com/K-arch-droid"
+  },
+  "homepage": "https://github.com/K-arch-droid/Myskills",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/K-arch-droid/Myskills.git"
+  },
+  "keywords": [
+    "pi-package",
+    "skills",
+    "agent-skills",
+    "reasoning",
+    "root-cause-analysis",
+    "code-review",
+    "retrospective",
+    "workflow"
+  ],
+  "files": [
+    "skills",
+    "scripts",
+    ".claude-plugin",
+    ".cursor-plugin",
+    ".codex-plugin",
+    ".agents",
+    ".opencode",
+    ".kimi-plugin",
+    ".antigravity-plugin",
+    ".devin-plugin",
+    ".muse-plugin",
+    ".hermes-plugin",
+    "AGENTS.md",
+    "CLAUDE.md",
+    "GEMINI.md",
+    "gemini-extension.json",
+    "skills.json",
+    "skills.sh.json"
+  ],
+  "skills": [
+    "./skills"
+  ],
+  "pi": {
+    "extensions": [],
+    "skills": [
+      "./skills"
+    ]
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

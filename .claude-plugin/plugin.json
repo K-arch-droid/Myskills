@@ -1,0 +1,19 @@
+{
+  "name": "myskills",
+  "version": "1.0.0",
+  "description": "面向 AI 编码 Agent 的「反捷径」Skill 集，每个 Skill 阻断一种廉价的默认行为",
+  "author": {
+    "name": "K-arch-droid"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/K-arch-droid/Myskills",
+  "repository": "https://github.com/K-arch-droid/Myskills",
+  "keywords": [
+    "skills",
+    "agent-skills",
+    "reasoning",
+    "root-cause",
+    "code-review",
+    "retrospective"
+  ]
+}

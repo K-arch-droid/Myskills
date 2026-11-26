@@ -1,0 +1,41 @@
+{
+  "name": "myskills",
+  "version": "1.0.0",
+  "description": "反捷径推理 Skill 集：先质疑问题定义，再找根因；先证伪，再推演；审计存量代码；复盘流程并沉淀规则。",
+  "author": {
+    "name": "K-arch-droid",
+    "url": "https://github.com/K-arch-droid"
+  },
+  "homepage": "https://github.com/K-arch-droid/Myskills",
+  "repository": "https://github.com/K-arch-droid/Myskills",
+  "license": "MIT",
+  "keywords": [
+    "skills",
+    "reasoning",
+    "root-cause-analysis",
+    "code-review",
+    "retrospective",
+    "workflow"
+  ],
+  "skills": "./skills/",
+  "hooks": {},
+  "interface": {
+    "displayName": "Myskills",
+    "shortDescription": "反捷径推理 Skill 集",
+    "longDescription": "5 个推理 Skill：问题诊断（质疑问题定义 + 第一性原理归因）、方案设计（澄清偏好 + 跨域类比 + 3 版方案）、方案验证（红队证伪 + 二阶三阶影响推演）、代码考古（认知成本审计 + Git 历史）、流程复盘（PR 瓶颈 + Bug 根因沉淀）。每个 Skill 都强制标注证据强度、按性价比取舍、给出最小改动 + 验证方式 + 回滚方式。",
+    "developerName": "K-arch-droid",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "帮我分析这个问题，先别急着改代码",
+      "帮我评估这个方案的风险"
+    ],
+    "websiteURL": "https://github.com/K-arch-droid/Myskills",
+    "brandColor": "#2563EB",
+    "screenshots": []
+  }
+}

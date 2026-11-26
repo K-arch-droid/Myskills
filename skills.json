@@ -1,0 +1,60 @@
+{
+  "$schema": "https://agentskills.io/skill.schema.json",
+  "name": "myskills",
+  "version": "1.0.0",
+  "description": "面向 AI 编码 Agent 的「反捷径」Skill 集，每个 Skill 阻断一种廉价的默认行为",
+  "license": "MIT",
+  "repository": "https://github.com/K-arch-droid/Myskills",
+  "install": {
+    "cli": "npx skills add K-arch-droid/Myskills",
+    "script": {
+      "bash": "curl -fsSL https://raw.githubusercontent.com/K-arch-droid/Myskills/main/scripts/install.sh | bash",
+      "powershell": "irm https://raw.githubusercontent.com/K-arch-droid/Myskills/main/scripts/install.ps1 | iex"
+    },
+    "claudeCode": {
+      "marketplace": "/plugin marketplace add K-arch-droid/Myskills",
+      "install": "/plugin install myskills@myskills"
+    }
+  },
+  "targets": {
+    "qoder": { "project": ".qoder/skills", "global": "~/.qoder/skills" },
+    "qoderwork": { "global": "~/.qoderwork/skills" },
+    "claude": { "project": ".claude/skills", "global": "~/.claude/skills" },
+    "codex": { "project": ".codex/skills", "global": "~/.codex/skills" },
+    "cursor": { "project": ".cursor/skills", "global": "~/.cursor/skills" },
+    "opencode": { "project": ".opencode/skills", "global": "~/.config/opencode/skills" },
+    "qwen": { "project": ".qwen/skills", "global": "~/.qwen/skills" },
+    "windsurf": { "project": ".windsurf/skills", "global": "~/.codeium/windsurf/skills" },
+    "trae": { "project": ".trae/skills", "global": "~/.trae/skills" },
+    "roo": { "project": ".roo/skills", "global": "~/.roo/skills" },
+    "kiro": { "project": ".kiro/skills", "global": "~/.kiro/skills" },
+    "agents": { "project": ".agents/skills", "global": "~/.agents/skills" }
+  },
+  "skills": [
+    {
+      "name": "problem-diagnosis",
+      "path": "skills/problem-diagnosis",
+      "description": "问题诊断与根因定位。先质疑问题定义（区分症状与原因、手段与目标），再用第一性原理和 5 Whys 追到根因并给出修复方案。适用于提需求、报 bug、要求优化或修复某处。"
+    },
+    {
+      "name": "solution-design",
+      "path": "skills/solution-design",
+      "description": "方案发散与设计。先用最多 3 个带选项的问题澄清偏好，再用跨领域类比找更优解，产出 3 版核心权衡真正不同的方案并给出推荐排序。"
+    },
+    {
+      "name": "solution-validation",
+      "path": "skills/solution-validation",
+      "description": "方案验证与影响推演。先假设最合理的方案是错的做红队攻击，再推演对模块耦合、用户行为、系统复杂度、长期维护成本的二阶三阶影响，标注可逆性。"
+    },
+    {
+      "name": "codebase-archaeology",
+      "path": "skills/codebase-archaeology",
+      "description": "存量代码审计。以新工程师视角定位命名混乱、抽象过度、职责不清、隐式上下文依赖，再用 Git 历史区分有意设计、历史遗留、约束已消失，输出可安全移除清单。"
+    },
+    {
+      "name": "process-retro",
+      "path": "skills/process-retro",
+      "description": "流程瓶颈定位与复盘沉淀。按 P50/P90/最大值分析 PR 耗时分布并归因到具体阶段；对 Bug 做根因聚类，区分人的问题与系统的问题，沉淀成可执行的规则、CI 自动化或 Skill。"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "name": "myskills",
+  "displayName": "Myskills",
+  "version": "1.0.0",
+  "description": "反捷径推理 Skill 集：问题诊断、方案设计、方案验证、代码考古、流程复盘",
+  "compat": {
+    "source": "native",
+    "manifestDir": ".muse-plugin"
+  },
+  "capabilities": {
+    "skills": [
+      {
+        "id": "problem-diagnosis",
+        "path": "skills/problem-diagnosis/SKILL.md"
+      },
+      {
+        "id": "solution-design",
+        "path": "skills/solution-design/SKILL.md"
+      },
+      {
+        "id": "solution-validation",
+        "path": "skills/solution-validation/SKILL.md"
+      },
+      {
+        "id": "codebase-archaeology",
+        "path": "skills/codebase-archaeology/SKILL.md"
+      },
+      {
+        "id": "process-retro",
+        "path": "skills/process-retro/SKILL.md"
+      }
+    ],
+    "commands": [],
+    "hooks": [],
+    "mcpServers": [],
+    "reminders": []
+  }
+}

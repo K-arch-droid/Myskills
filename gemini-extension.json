@@ -1,0 +1,6 @@
+{
+  "name": "myskills",
+  "description": "反捷径推理 Skill 集：问题诊断、方案设计、方案验证、代码考古、流程复盘",
+  "version": "1.0.0",
+  "contextFileName": "GEMINI.md"
+}
